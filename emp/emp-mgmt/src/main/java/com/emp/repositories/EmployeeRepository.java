@@ -1,4 +1,4 @@
-package com.anuraj.repositories;
+package com.emp.repositories;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.data.repository.query.Param;
 
-import com.anuraj.entity.Employee;
+import com.emp.entity.Employee;
 
 public interface EmployeeRepository extends
 PagingAndSortingRepository<Employee, Long>  {

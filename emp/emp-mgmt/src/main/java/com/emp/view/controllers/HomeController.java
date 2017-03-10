@@ -1,4 +1,4 @@
-package com.anuraj.view.controllers;
+package com.emp.view.controllers;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -13,11 +13,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.anuraj.entity.Employee;
-import com.anuraj.service.EmployeeService;
-import com.anuraj.view.presentation.EmpObject;
-import com.anuraj.view.presentation.EmpSearchRequest;
-import com.anuraj.view.presentation.EmpSearchResponse;
+import com.emp.entity.Employee;
+import com.emp.service.EmployeeService;
+import com.emp.view.presentation.EmpObject;
+import com.emp.view.presentation.EmpSearchRequest;
+import com.emp.view.presentation.EmpSearchResponse;
 
 @RestController
 @RequestMapping({ "/api/v1/home", "/home" })

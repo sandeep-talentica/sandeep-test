@@ -1,9 +1,9 @@
-package com.anuraj.service;
+package com.emp.service;
 
 import java.util.List;
 import java.util.Map;
 
-import com.anuraj.entity.Employee;
+import com.emp.entity.Employee;
 
 public interface EmployeeService {
 	

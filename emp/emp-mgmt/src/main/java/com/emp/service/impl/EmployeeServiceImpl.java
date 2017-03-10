@@ -1,4 +1,4 @@
-package com.anuraj.service.impl;
+package com.emp.service.impl;
 
 import java.util.List;
 import java.util.Map;
@@ -11,9 +11,9 @@ import org.springframework.data.domain.Sort.Direction;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.anuraj.entity.Employee;
-import com.anuraj.repositories.EmployeeRepository;
-import com.anuraj.service.EmployeeService;
+import com.emp.entity.Employee;
+import com.emp.repositories.EmployeeRepository;
+import com.emp.service.EmployeeService;
 
 @Service
 @Transactional("empTransactionManager")

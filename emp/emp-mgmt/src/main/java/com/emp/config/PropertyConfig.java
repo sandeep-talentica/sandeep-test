@@ -1,4 +1,4 @@
-package com.anuraj.config;
+package com.emp.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
