@@ -15,6 +15,8 @@ public class PropertyConfig {
 	public static PropertySourcesPlaceholderConfigurer myPropertySourcesPlaceholderConfigurer() {
 		return new PropertySourcesPlaceholderConfigurer();
 	}
+	
+	//kjkfdjgkjfdgjdf;gldf
 
 	/**
 	 * Properties to support the 'test' mode of operation.
