@@ -10,8 +10,9 @@ import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 @Configuration
 @PropertySource({ "classpath:common.properties" })
 public class PropertyConfig {
-	
-	@Bean public static PropertySourcesPlaceholderConfigurer myPropertySourcesPlaceholderConfigurer() {
+
+	@Bean
+	public static PropertySourcesPlaceholderConfigurer myPropertySourcesPlaceholderConfigurer() {
 		return new PropertySourcesPlaceholderConfigurer();
 	}
 
@@ -29,8 +30,7 @@ public class PropertyConfig {
 	 */
 	@Configuration
 	@Profile("production")
-	@PropertySources({
-			@PropertySource(value = "classpath:env-production.properties", ignoreResourceNotFound = true),
+	@PropertySources({ @PropertySource(value = "classpath:env-production.properties", ignoreResourceNotFound = true),
 			@PropertySource(value = "file:${CONF_DIR}/env-production.properties", ignoreResourceNotFound = true) })
 	static class Production {
 		// Define additional beans for this profile here
